@@ -313,9 +313,9 @@
       </div>
       <div class="footer-div-subscribe">
         <p class="footer-p">Subscribe</p>
-        <form class="footer-form" action="">
-          <label class="footer-label" for="">
-          <input class="fotter-input" type="email" name="user-subscribe" id="" placeholder="E-mail"></label>
+        <form class="footer-form">
+          <label class="footer-label" for="user-subscribe">
+          <input class="fotter-input" type="email" name="user-subscribe" id="user-subscribe" placeholder="E-mail"></label>
           <button class="footer-submit" type="submit">Subscribe<svg class="footer-svg" width="24" height="24">
             <use href="./images/modal-icons.svg#frame"></use>
           </svg></button>
@@ -333,8 +333,8 @@
         <div class="modal-field">
         <label for="user-name" class="modal-label" >Name</label>
         <div class="input-wrap">
-          <input type="text" name="user-name" id="user-name" class="modal-input" required >
-        <svg class="modal-pe svg-person" width="18" height="18">
+          <input class="modal-input" type="text" name="user-name" id="user-name"  required >
+        <svg class="modal-pe" width="18" height="18">
           <use href="./images/modal-icons.svg#person"></use>
         </svg>
       </div>
@@ -347,18 +347,19 @@
         </svg>
       </div>
       </div>
-      <div class="modal-field-check">
+      <div class="modal-field ">
         <label for="user-email" class="modal-label" >Email</label>
         <div class="input-wrap"><input type="email" id="user-email" name="user-email" class="modal-input" required >
         <svg class="modal-pe" width="18" height="18">
-          <use href="./images/modal-icons.svg#email"></use>
-      </div></div>
-      <div class="modal-field">
+          <use href="./images/modal-icons.svg#email"></use></svg>
+      </div>
+    </div>
+      <div class="modal-field-text">
         <label for="user-comment">Comment</label>
       <textarea name="user-comment" id="user-comment" class="text-modal" placeholder="Text input"></textarea>
       
     </div>
-    <div class="modal-field modal-text-field">
+    <div class="modal-field modal-checkbox-field">
       <input type="checkbox" name="user-privacy" id="user-privacy" class="input-checkbox visually-hidden" value="true">
       <label for="user-privacy" class="check-text"><span class="modal-span"><svg class="check-icon" width="10" height="8">
         <use href="./images/v.svg#v"></use>
