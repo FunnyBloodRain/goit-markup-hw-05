@@ -477,7 +477,7 @@ fill: var(--light--color);
 }
 
 
-.modal-input:focus-within + modal-p {
+.modal-input:focus + modal-p > modal-span {
     fill: var(--blue--color);
     
 }
