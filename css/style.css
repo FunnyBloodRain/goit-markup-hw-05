@@ -477,10 +477,10 @@ fill: var(--light--color);
 }
 
 
-.modal-input:focus + modal-p > .modal-span {
+/* .modal-input:focus + modal-p > .modal-span {
     fill: var(--blue--color);
     
-}
+} */
 
 
 .modal-label {
