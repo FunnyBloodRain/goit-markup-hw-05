@@ -472,9 +472,9 @@ fill: var(--light--color);
 }
 
 
-.modal-input:focus {
+/* .modal-input:focus {
     border-color: var(--blue--color);
-}
+} */
 
 
 .modal-input:focus + modal-p {
@@ -516,7 +516,7 @@ fill: var(--light--color);
 
 .modal-text {
     border-radius: 4px;
-    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+    border: 1px solid var(--blue--color, rgba(46, 47, 66, 0.40));
     resize: none;
     height: 120px;
     width: 100%;
