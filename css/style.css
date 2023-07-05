@@ -472,16 +472,6 @@ fill: var(--light--color);
 }
 
 
-.modal-input:focus {
-    border-color: var(--blue--color);
-}
-
-
-/* .modal-input:focus + modal-p > .modal-span {
-    fill: var(--blue--color);
-    
-} */
-
 
 .modal-label {
     display: block;
@@ -591,6 +581,23 @@ fill: var(--light--color);
     border: none;
     fill: var(--white--color);
 }
+
+
+
+
+.modal-p {
+    fill: none;
+}
+
+
+.modal-input:focus {
+    border-color: var(--blue--color);
+}
+
+.modal-input:focus + modal-p {
+    fill: var(--blue--color);
+}
+
 
 .modal-submit {
     min-width: 169px;
