@@ -584,9 +584,8 @@ fill: var(--light--color);
 
 
 
-
 .modal-p {
-    fill: none;
+    fill: var(--main--color);
 }
 
 
