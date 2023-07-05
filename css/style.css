@@ -941,6 +941,74 @@ fill: var(--light--color);
 
 
 
+.footer-p {
+    margin-bottom: 16px;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light--color);
+}
+
+.footer-form {
+    display: flex;
+}
+
+
+.footer-label {
+    gap: 24px;
+
+}
+
+
+.fotter-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--light--color); 
+    background-color: transparent; 
+    font-size: 12px; 
+    line-height: 1.5; 
+    letter-spacing: 0.04em; 
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--light--color);
+}
+
+::placeholder {
+    fill: var(--light--color);
+}
+
+.footer-submit {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--light--color);
+    cursor: pointer;
+    background-color: var(--blue--color);
+    border: none;
+    border-radius: 4px;
+    margin-left: 24px;
+}
+
+.footer-svg {
+    margin-left: 16px;
+    fill: var(--light--color);
+}
+
+.footer-div-subscribe {
+    margin-left: 80px;
+}
+
+
+
 /* 
 ==========ICONS=========== */
 .icons {
