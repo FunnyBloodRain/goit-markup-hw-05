@@ -477,13 +477,9 @@ fill: var(--light--color);
 }
 
 
-.modal-p {
-    fill: var(--blue--color);
-}
-
-
 .modal-input:focus + modal-p {
     fill: var(--blue--color);
+    
 }
 
 
@@ -500,6 +496,7 @@ fill: var(--light--color);
 }
 
 .modal-p {
+    fill: var(--main--color);
     position: absolute;
     left: 16px;
     top: 50%;
@@ -519,7 +516,7 @@ fill: var(--light--color);
 
 .modal-text {
     border-radius: 4px;
-    border: 1px solid var(--blue--color); border: rgba(46, 47, 66, 0.40);
+    border: 1px solid var(--blue--color, rgba(46, 47, 66, 0.40));
     resize: none;
     height: 120px;
     width: 100%;
@@ -532,7 +529,6 @@ fill: var(--light--color);
     padding: 8px 16px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 
