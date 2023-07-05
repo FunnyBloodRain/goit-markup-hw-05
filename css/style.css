@@ -590,7 +590,7 @@ fill: var(--light--color);
 .input-checkbox:checked + .check-text span {
     background-color: var(--blue--color);
     border: none;
-    fill: var(--light--color);
+    fill: var(--white--color);
 }
 
 .modal-submit {
