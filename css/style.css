@@ -472,9 +472,9 @@ fill: var(--light--color);
 }
 
 
-/* .modal-input:focus {
+.modal-input:focus {
     border-color: var(--blue--color);
-} */
+}
 
 
 .modal-input:focus + modal-p {
@@ -496,7 +496,6 @@ fill: var(--light--color);
 }
 
 .modal-p {
-    fill: var(--main--color);
     position: absolute;
     left: 16px;
     top: 50%;
