@@ -495,10 +495,6 @@ fill: var(--light--color);
 }
 
 
-.modal-p:focus {
-    fill: var(--blue--color);
-}
-
 
 .input-wrap {
     position: relative;
@@ -584,16 +580,11 @@ fill: var(--light--color);
 
 
 
-.modal-p {
-    fill: var(--main--color);
-}
-
-
 .modal-input:focus {
     border-color: var(--blue--color);
 }
 
-.modal-input:focus + modal-p {
+.modal-input:focus-within + .modal-p {
     fill: var(--blue--color);
 }
 
@@ -623,9 +614,6 @@ fill: var(--light--color);
 }
 
 
-.modal-input:focus + .modal-p {
-    fill:#404BBF;
-}
 
 .modal-checkbox-field {
     margin-bottom: 24px
